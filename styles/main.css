@@ -237,13 +237,38 @@ footer {
 }
 
 /* media queries */
+/* tablet portrait view */
 @media only screen and (max-width: 959px) {
     h1 {
         font-size: 135%;
     }
 
-    h2 {
+    header, main h2 {
         font-size: 120%;
     }
 }
+/* phone landscape */
+@media only screen and (max-width: 767px) {
+	header img {
+		float: none;
+	}
+	header {
+		align-content: center;
+	}
+
+	aside, section {
+		float: none;
+		width: 97.92%
+	}
+
+	aside {
+		padding-right: 2.08%;
+	}
+
+	article img {
+		max-width: 30%;
+	}
+
+}
+
 
