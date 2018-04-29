@@ -21,18 +21,18 @@ body {
 
 
 section {
-	width: 54.7%;
+	width: 54.6875%;
 	float: right;
-    padding-right: 20px;
-    padding-left: 20px;
-    padding-bottom: 20px;
+    padding-right: 2.08%;
+    padding-left: 2.08%;
+    padding-bottom: 2.08%;
 }
 
 aside {
-	width: 22.4%;
+	width: 22.39583%;
 	float: right;
-    padding-bottom: 20px;
-    padding-left: 20px;
+    padding-bottom: 2.08%;
+    padding-left: 2.08%;
 }
 /* the styles for the header */
 header img {
@@ -75,11 +75,11 @@ ul {
 
 #nav_menu > li { /* li is child of nav_menu ul*/
 	float: left;
+	width: 20%;
 }
 
 #nav_menu a {
 	display: block;
-	width: 16.67%; /* 1/5th body */
 	text-align: center;
 	padding-top: 1em;
 	padding-bottom: 1em;
@@ -93,6 +93,7 @@ ul {
 
 #nav_menu, .dropdown {
 	position: relative;
+
 }
 
 .sub_menu {
@@ -102,6 +103,8 @@ ul {
 
 .dropdown:hover .sub_menu {
 	display: block;
+	width: 100%;
+
 
 }
 
