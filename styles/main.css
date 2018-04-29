@@ -235,3 +235,15 @@ footer {
 	border-top: 3px solid #931420;
 	background-color: #931420;
 }
+
+/* media queries */
+@media only screen and (max-width: 959px) {
+    h1 {
+        font-size: 135%;
+    }
+
+    h2 {
+        font-size: 120%;
+    }
+}
+
