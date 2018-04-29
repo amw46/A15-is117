@@ -265,6 +265,12 @@ footer {
 		padding-right: 2.08%;
 	}
 
+    aside div {
+        -webkit-column-count: 2; /* Chrome, Safari, Opera */
+        -moz-column-count: 2; /* Firefox */
+        column-count: 2;
+    }
+
 	article img {
 		max-width: 30%;
 	}
